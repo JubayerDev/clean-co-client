@@ -5,7 +5,7 @@ const Navbar = ({ children }) => {
         <div className="drawer drawer-end">
             <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content flex flex-col">
-                <div className="w-full navbar bg-base-100 px-20">
+                <div className="w-full navbar bg-base-100 lg:px-20 fixed top-0 z-50">
                     <div className="navbar">
                         <Link to={'/'}>
                             <h2 className="btn btn-ghost normal-case text-2xl">Clean Co.</h2>
@@ -32,7 +32,7 @@ const Navbar = ({ children }) => {
                                     <li><a>Item 2</a></li>
                                 </ul>
                             </li>
-                            <label className="swap swap-rotate" >
+                            <label className="swap swap-rotate ml-3 w-8" >
 
 
                                 <input type="checkbox" data-toggle-theme='dark,light'/>
